@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   welcome  to this page      "
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnMy"
+        android:layout_margin="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:background="@drawable/sheplogin"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
